@@ -8,7 +8,7 @@
 #import "TiBase.h"
 #import "TiHost.h"
 #import "TiUtils.h"
-#import <HockeySDK/HockeySDK.h>
+#import <HockeySDK.h>
 
 @implementation NlRebelicHockeyappModule
 
