@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0
+apiversion: 2
+description: Allows to set extra properties on the ActionBar
+author: Ricardo Alcocer
+license: MIT License - http://alco.mit-license.org
+copyright: 2013
+
+
+# these should not be edited
+name: hockeyapp
+moduleid: nl.rebelic.hockeyapp
+guid: 6A8981E5-18A8-4C02-B2EE-E76A8CC27239
+platform: android
+minsdk: 3.2.2.GA
