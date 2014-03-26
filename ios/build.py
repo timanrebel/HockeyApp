@@ -67,7 +67,7 @@ def generate_doc(config):
 	return documentation
 
 def compile_js(manifest,config):
-	js_file = os.path.join(cwd,'assets','nl.rebelic.hockeyapp.ios.js')
+	js_file = os.path.join(cwd,'assets','nl.rebelic.hockeyapp.js')
 	if not os.path.exists(js_file): return
 
 	from compiler import Compiler
@@ -97,7 +97,7 @@ def compile_js(manifest,config):
 
 	from tools import splice_code
 
-	assets_router = os.path.join(cwd,'Classes','NlRebelicHockeyappIosModuleAssets.m')
+	assets_router = os.path.join(cwd,'Classes','NlRebelicHockeyappModuleAssets.m')
 	splice_code(assets_router, 'asset', root_asset_content)
 	splice_code(assets_router, 'resolve_asset', module_asset_content)
 

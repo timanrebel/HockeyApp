@@ -25,5 +25,4 @@
 //
 // IMPORTANT NOTE: always use $(inherited) in your overrides
 // 
-
-OTHER_LDFLAGS=$(inherited) -F"/Users/timanrebel/Development/Titanium/_Modules/HockeyApp/ios/HockeySDK-iOS/HockeySDK.embeddedframework" -framework HockeySDK -framework Foundation -framework UIKit -framework SystemConfiguration -framework QuartzCore -framework CoreGraphics
+OTHER_LDFLAGS=$(inherited) -ObjC -F"/Users/timanrebel/Development/Titanium/_Modules/HockeyApp/ios/HockeySDK-iOS/HockeySDK.embeddedframework" -framework HockeySDK -framework Foundation -framework UIKit -framework SystemConfiguration -framework QuartzCore -framework CoreGraphics

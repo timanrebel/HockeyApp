@@ -8,7 +8,7 @@ TODO: Enter your module description here
 
 To access this module from JavaScript, you would do the following:
 
-	var ios = require("nl.rebelic.hockeyapp.ios");
+	var ios = require("nl.rebelic.hockeyapp");
 
 The ios variable is a reference to the Module object.	
 

@@ -6,7 +6,7 @@
  */
 #import "TiModule.h"
 
-@interface NlRebelicHockeyappIosModule : TiModule 
+@interface NlRebelicHockeyappModule : TiModule 
 {
 }
 

@@ -22,19 +22,19 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		24DD6CF91134B3F500162E58 /* NlRebelicHockeyappIosModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* NlRebelicHockeyappIosModule.h */; };
-		24DD6CFA1134B3F500162E58 /* NlRebelicHockeyappIosModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* NlRebelicHockeyappIosModule.m */; };
-		24DE9E1111C5FE74003F90F6 /* NlRebelicHockeyappIosModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* NlRebelicHockeyappIosModuleAssets.h */; };
-		24DE9E1211C5FE74003F90F6 /* NlRebelicHockeyappIosModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* NlRebelicHockeyappIosModuleAssets.m */; };
-		AA747D9F0F9514B9006C5449 /* NlRebelicHockeyappIos_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* NlRebelicHockeyappIos_Prefix.pch */; };
+		24DD6CF91134B3F500162E58 /* NlRebelicHockeyappModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* NlRebelicHockeyappModule.h */; };
+		24DD6CFA1134B3F500162E58 /* NlRebelicHockeyappModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* NlRebelicHockeyappModule.m */; };
+		24DE9E1111C5FE74003F90F6 /* NlRebelicHockeyappModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* NlRebelicHockeyappModuleAssets.h */; };
+		24DE9E1211C5FE74003F90F6 /* NlRebelicHockeyappModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* NlRebelicHockeyappModuleAssets.m */; };
+		AA747D9F0F9514B9006C5449 /* NlRebelicHockeyapp_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* NlRebelicHockeyapp_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
-		BC51A34518E2BBE2007BAA89 /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC51A34118E2BBE2007BAA89 /* HockeySDK.framework */; };
-		BC51A34818E2BC27007BAA89 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC51A34618E2BC27007BAA89 /* CoreGraphics.framework */; };
-		BC51A34918E2BC27007BAA89 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC51A34718E2BC27007BAA89 /* CoreText.framework */; };
-		BC51A34B18E2BC2E007BAA89 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC51A34A18E2BC2E007BAA89 /* QuartzCore.framework */; };
-		BC51A34D18E2BC34007BAA89 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC51A34C18E2BC34007BAA89 /* Security.framework */; };
-		BC51A34F18E2BC3D007BAA89 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC51A34E18E2BC3D007BAA89 /* SystemConfiguration.framework */; };
-		BC51A35118E2BC43007BAA89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC51A35018E2BC43007BAA89 /* UIKit.framework */; };
+		BC90F7A018E2D751004C4A57 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC90F79F18E2D751004C4A57 /* CoreGraphics.framework */; };
+		BC90F7A218E2D75D004C4A57 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC90F7A118E2D75D004C4A57 /* CoreText.framework */; };
+		BC90F7A418E2D762004C4A57 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC90F7A318E2D762004C4A57 /* QuartzCore.framework */; };
+		BC90F7A618E2D767004C4A57 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC90F7A518E2D767004C4A57 /* Security.framework */; };
+		BC90F7A818E2D76B004C4A57 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC90F7A718E2D76B004C4A57 /* SystemConfiguration.framework */; };
+		BC90F7AA18E2D772004C4A57 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC90F7A918E2D772004C4A57 /* UIKit.framework */; };
+		BC90F7C118E2D91A004C4A57 /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC90F7BD18E2D91A004C4A57 /* HockeySDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,23 +48,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		24DD6CF71134B3F500162E58 /* NlRebelicHockeyappIosModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NlRebelicHockeyappIosModule.h; path = Classes/NlRebelicHockeyappIosModule.h; sourceTree = "<group>"; };
-		24DD6CF81134B3F500162E58 /* NlRebelicHockeyappIosModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NlRebelicHockeyappIosModule.m; path = Classes/NlRebelicHockeyappIosModule.m; sourceTree = "<group>"; };
+		24DD6CF71134B3F500162E58 /* NlRebelicHockeyappModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NlRebelicHockeyappModule.h; path = Classes/NlRebelicHockeyappModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* NlRebelicHockeyappModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NlRebelicHockeyappModule.m; path = Classes/NlRebelicHockeyappModule.m; sourceTree = "<group>"; };
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
-		24DE9E0F11C5FE74003F90F6 /* NlRebelicHockeyappIosModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NlRebelicHockeyappIosModuleAssets.h; path = Classes/NlRebelicHockeyappIosModuleAssets.h; sourceTree = "<group>"; };
-		24DE9E1011C5FE74003F90F6 /* NlRebelicHockeyappIosModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NlRebelicHockeyappIosModuleAssets.m; path = Classes/NlRebelicHockeyappIosModuleAssets.m; sourceTree = "<group>"; };
-		AA747D9E0F9514B9006C5449 /* NlRebelicHockeyappIos_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NlRebelicHockeyappIos_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		24DE9E0F11C5FE74003F90F6 /* NlRebelicHockeyappModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NlRebelicHockeyappModuleAssets.h; path = Classes/NlRebelicHockeyappModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* NlRebelicHockeyappModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NlRebelicHockeyappModuleAssets.m; path = Classes/NlRebelicHockeyappModuleAssets.m; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* NlRebelicHockeyapp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NlRebelicHockeyapp_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		BC51A34118E2BBE2007BAA89 /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HockeySDK.framework; sourceTree = "<group>"; };
-		BC51A34318E2BBE2007BAA89 /* HockeySDK.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = HockeySDK.xcconfig; sourceTree = "<group>"; };
-		BC51A34418E2BBE2007BAA89 /* HockeySDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HockeySDKResources.bundle; sourceTree = "<group>"; };
-		BC51A34618E2BC27007BAA89 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		BC51A34718E2BC27007BAA89 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
-		BC51A34A18E2BC2E007BAA89 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		BC51A34C18E2BC34007BAA89 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		BC51A34E18E2BC3D007BAA89 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		BC51A35018E2BC43007BAA89 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		D2AAC07E0554694100DB518D /* libNlRebelicHockeyappIos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNlRebelicHockeyappIos.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC90F79F18E2D751004C4A57 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BC90F7A118E2D75D004C4A57 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		BC90F7A318E2D762004C4A57 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BC90F7A518E2D767004C4A57 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BC90F7A718E2D76B004C4A57 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BC90F7A918E2D772004C4A57 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BC90F7BD18E2D91A004C4A57 /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HockeySDK.framework; sourceTree = "<group>"; };
+		BC90F7BF18E2D91A004C4A57 /* HockeySDK.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = HockeySDK.xcconfig; sourceTree = "<group>"; };
+		BC90F7C018E2D91A004C4A57 /* HockeySDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HockeySDKResources.bundle; sourceTree = "<group>"; };
+		D2AAC07E0554694100DB518D /* libNlRebelicHockeyapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNlRebelicHockeyapp.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,14 +72,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC51A35118E2BC43007BAA89 /* UIKit.framework in Frameworks */,
-				BC51A34F18E2BC3D007BAA89 /* SystemConfiguration.framework in Frameworks */,
-				BC51A34D18E2BC34007BAA89 /* Security.framework in Frameworks */,
-				BC51A34B18E2BC2E007BAA89 /* QuartzCore.framework in Frameworks */,
-				BC51A34818E2BC27007BAA89 /* CoreGraphics.framework in Frameworks */,
-				BC51A34918E2BC27007BAA89 /* CoreText.framework in Frameworks */,
+				BC90F7AA18E2D772004C4A57 /* UIKit.framework in Frameworks */,
+				BC90F7A818E2D76B004C4A57 /* SystemConfiguration.framework in Frameworks */,
+				BC90F7A618E2D767004C4A57 /* Security.framework in Frameworks */,
+				BC90F7A418E2D762004C4A57 /* QuartzCore.framework in Frameworks */,
+				BC90F7C118E2D91A004C4A57 /* HockeySDK.framework in Frameworks */,
+				BC90F7A218E2D75D004C4A57 /* CoreText.framework in Frameworks */,
+				BC90F7A018E2D751004C4A57 /* CoreGraphics.framework in Frameworks */,
 				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
-				BC51A34518E2BBE2007BAA89 /* HockeySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +89,7 @@
 		034768DFFF38A50411DB9C8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2AAC07E0554694100DB518D /* libNlRebelicHockeyappIos.a */,
+				D2AAC07E0554694100DB518D /* libNlRebelicHockeyapp.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +97,7 @@
 		0867D691FE84028FC02AAC07 /* ios */ = {
 			isa = PBXGroup;
 			children = (
+				BC90F7BC18E2D91A004C4A57 /* HockeySDK.embeddedframework */,
 				08FB77AEFE84172EC02AAC07 /* Classes */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
@@ -108,13 +109,12 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BC51A35018E2BC43007BAA89 /* UIKit.framework */,
-				BC51A34E18E2BC3D007BAA89 /* SystemConfiguration.framework */,
-				BC51A34C18E2BC34007BAA89 /* Security.framework */,
-				BC51A34A18E2BC2E007BAA89 /* QuartzCore.framework */,
-				BC51A34618E2BC27007BAA89 /* CoreGraphics.framework */,
-				BC51A34718E2BC27007BAA89 /* CoreText.framework */,
-				BC51A34018E2BBE2007BAA89 /* HockeySDK.embeddedframework */,
+				BC90F7A918E2D772004C4A57 /* UIKit.framework */,
+				BC90F7A718E2D76B004C4A57 /* SystemConfiguration.framework */,
+				BC90F7A518E2D767004C4A57 /* Security.framework */,
+				BC90F7A318E2D762004C4A57 /* QuartzCore.framework */,
+				BC90F7A118E2D75D004C4A57 /* CoreText.framework */,
+				BC90F79F18E2D751004C4A57 /* CoreGraphics.framework */,
 				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -123,10 +123,10 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				24DE9E0F11C5FE74003F90F6 /* NlRebelicHockeyappIosModuleAssets.h */,
-				24DE9E1011C5FE74003F90F6 /* NlRebelicHockeyappIosModuleAssets.m */,
-				24DD6CF71134B3F500162E58 /* NlRebelicHockeyappIosModule.h */,
-				24DD6CF81134B3F500162E58 /* NlRebelicHockeyappIosModule.m */,
+				24DE9E0F11C5FE74003F90F6 /* NlRebelicHockeyappModuleAssets.h */,
+				24DE9E1011C5FE74003F90F6 /* NlRebelicHockeyappModuleAssets.m */,
+				24DD6CF71134B3F500162E58 /* NlRebelicHockeyappModule.h */,
+				24DD6CF81134B3F500162E58 /* NlRebelicHockeyappModule.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -134,27 +134,27 @@
 		32C88DFF0371C24200C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				AA747D9E0F9514B9006C5449 /* NlRebelicHockeyappIos_Prefix.pch */,
+				AA747D9E0F9514B9006C5449 /* NlRebelicHockeyapp_Prefix.pch */,
 				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
 		};
-		BC51A34018E2BBE2007BAA89 /* HockeySDK.embeddedframework */ = {
+		BC90F7BC18E2D91A004C4A57 /* HockeySDK.embeddedframework */ = {
 			isa = PBXGroup;
 			children = (
-				BC51A34118E2BBE2007BAA89 /* HockeySDK.framework */,
-				BC51A34218E2BBE2007BAA89 /* Resources */,
+				BC90F7BD18E2D91A004C4A57 /* HockeySDK.framework */,
+				BC90F7BE18E2D91A004C4A57 /* Resources */,
 			);
 			name = HockeySDK.embeddedframework;
 			path = "HockeySDK-iOS/HockeySDK.embeddedframework";
 			sourceTree = "<group>";
 		};
-		BC51A34218E2BBE2007BAA89 /* Resources */ = {
+		BC90F7BE18E2D91A004C4A57 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				BC51A34318E2BBE2007BAA89 /* HockeySDK.xcconfig */,
-				BC51A34418E2BBE2007BAA89 /* HockeySDKResources.bundle */,
+				BC90F7BF18E2D91A004C4A57 /* HockeySDK.xcconfig */,
+				BC90F7C018E2D91A004C4A57 /* HockeySDKResources.bundle */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -166,9 +166,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA747D9F0F9514B9006C5449 /* NlRebelicHockeyappIos_Prefix.pch in Headers */,
-				24DD6CF91134B3F500162E58 /* NlRebelicHockeyappIosModule.h in Headers */,
-				24DE9E1111C5FE74003F90F6 /* NlRebelicHockeyappIosModuleAssets.h in Headers */,
+				AA747D9F0F9514B9006C5449 /* NlRebelicHockeyapp_Prefix.pch in Headers */,
+				24DD6CF91134B3F500162E58 /* NlRebelicHockeyappModule.h in Headers */,
+				24DE9E1111C5FE74003F90F6 /* NlRebelicHockeyappModuleAssets.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,7 +189,7 @@
 			);
 			name = ios;
 			productName = ios;
-			productReference = D2AAC07E0554694100DB518D /* libNlRebelicHockeyappIos.a */;
+			productReference = D2AAC07E0554694100DB518D /* libNlRebelicHockeyapp.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -241,8 +241,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24DD6CFA1134B3F500162E58 /* NlRebelicHockeyappIosModule.m in Sources */,
-				24DE9E1211C5FE74003F90F6 /* NlRebelicHockeyappIosModuleAssets.m in Sources */,
+				24DD6CFA1134B3F500162E58 /* NlRebelicHockeyappModule.m in Sources */,
+				24DE9E1211C5FE74003F90F6 /* NlRebelicHockeyappModuleAssets.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +263,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DSTROOT = /tmp/NlRebelicHockeyappIos.dst;
+				DSTROOT = /tmp/NlRebelicHockeyapp.dst;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDK.embeddedframework",
@@ -271,7 +271,7 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = NlRebelicHockeyappIos_Prefix.pch;
+				GCC_PREFIX_HEADER = NlRebelicHockeyapp_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -290,7 +290,7 @@
 					"-DTI_POST_1_2",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = NlRebelicHockeyappIos;
+				PRODUCT_NAME = NlRebelicHockeyapp;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
@@ -304,7 +304,7 @@
 			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				DSTROOT = /tmp/NlRebelicHockeyappIos.dst;
+				DSTROOT = /tmp/NlRebelicHockeyapp.dst;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDK.embeddedframework",
@@ -312,7 +312,7 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = NlRebelicHockeyappIos_Prefix.pch;
+				GCC_PREFIX_HEADER = NlRebelicHockeyapp_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -329,7 +329,7 @@
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = NlRebelicHockeyappIos;
+				PRODUCT_NAME = NlRebelicHockeyapp;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -342,11 +342,11 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DSTROOT = /tmp/NlRebelicHockeyappIos.dst;
+				DSTROOT = /tmp/NlRebelicHockeyapp.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = NlRebelicHockeyappIos_Prefix.pch;
+				GCC_PREFIX_HEADER = NlRebelicHockeyapp_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -364,7 +364,7 @@
 					"-DTI_POST_1_2",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = NlRebelicHockeyappIos;
+				PRODUCT_NAME = NlRebelicHockeyapp;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
@@ -378,11 +378,11 @@
 			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				DSTROOT = /tmp/NlRebelicHockeyappIos.dst;
+				DSTROOT = /tmp/NlRebelicHockeyapp.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = NlRebelicHockeyappIos_Prefix.pch;
+				GCC_PREFIX_HEADER = NlRebelicHockeyapp_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -398,7 +398,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = NlRebelicHockeyappIos;
+				PRODUCT_NAME = NlRebelicHockeyapp;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D2AAC07D0554694100DB518D"
-               BuildableName = "libNlRebelicHockeyappIos.a"
+               BuildableName = "libNlRebelicHockeyapp.a"
                BlueprintName = "ios"
                ReferencedContainer = "container:ios.xcodeproj">
             </BuildableReference>

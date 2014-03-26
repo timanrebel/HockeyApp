@@ -4,20 +4,20 @@
  * Appcelerator Titanium is Copyright (c) 2009-2010 by Appcelerator, Inc.
  * and licensed under the Apache Public License (version 2)
  */
-#import "NlRebelicHockeyappIosModule.h"
+#import "NlRebelicHockeyappModule.h"
 #import "TiBase.h"
 #import "TiHost.h"
 #import "TiUtils.h"
 #import <HockeySDK/HockeySDK.h>
 
-@implementation NlRebelicHockeyappIosModule
+@implementation NlRebelicHockeyappModule
 
 #pragma mark Internal
 
 // this is generated for your module, please do not change it
 -(id)moduleGUID
 {
-	return @"f5d3e4d3-c62a-4826-99cd-fc1dc1f2d10b";
+	return @"5accc0b6-00bd-4304-83fe-457f73a41412";
 }
 
 // this is generated for your module, please do not change it
@@ -33,7 +33,7 @@
 	// this method is called when the module is first loaded
 	// you *must* call the superclass
 	[super startup];
-    
+	
 	NSLog(@"[INFO] %@ loaded",self);
 }
 
@@ -86,19 +86,6 @@
 }
 
 #pragma Public APIs
-
--(id)example:(id)args
-{
-	// example method
-	return @"hello world";
-}
-
--(id)exampleProp
-{
-	// example property getter
-	return @"hello world";
-}
-
 -(void)start:(id)appId
 {
     ENSURE_UI_THREAD(start, appId);

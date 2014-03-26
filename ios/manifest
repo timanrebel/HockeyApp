@@ -5,7 +5,7 @@
 version: 0.1
 apiversion: 2
 description: My module
-author: Timan Rebel
+author: Your Name
 license: Specify your license
 copyright: Copyright (c) 2014 by Your Company
 
@@ -13,6 +13,6 @@ copyright: Copyright (c) 2014 by Your Company
 # these should not be edited
 name: ios
 moduleid: nl.rebelic.hockeyapp
-guid: f5d3e4d3-c62a-4826-99cd-fc1dc1f2d10b
+guid: 5accc0b6-00bd-4304-83fe-457f73a41412
 platform: iphone
 minsdk: 3.2.2.GA

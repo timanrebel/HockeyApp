@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4006749B-1904-4E1F-AD89-84F4C0CE91D1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ios</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4B52D8CC-C3A8-457A-932C-B61D8534BEF3</key>
+		<string>ssh://github.com/Rebelic/HockeyApp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ios/ios.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4B52D8CC-C3A8-457A-932C-B61D8534BEF3</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/Rebelic/HockeyApp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4B52D8CC-C3A8-457A-932C-B61D8534BEF3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4B52D8CC-C3A8-457A-932C-B61D8534BEF3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HockeyApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
