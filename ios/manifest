@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.1
+apiversion: 2
+description: My module
+author: Timan Rebel
+license: Specify your license
+copyright: Copyright (c) 2014 by Your Company
+
+
+# these should not be edited
+name: ios
+moduleid: nl.rebelic.hockeyapp
+guid: f5d3e4d3-c62a-4826-99cd-fc1dc1f2d10b
+platform: iphone
+minsdk: 3.2.2.GA
