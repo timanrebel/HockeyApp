@@ -8,12 +8,12 @@
  */
 package nl.rebelic.hockeyapp;
 
-import org.appcelerator.kroll.KrollDict;
 import org.appcelerator.kroll.KrollModule;
 import org.appcelerator.kroll.annotations.Kroll;
 
 import org.appcelerator.titanium.TiApplication;
 import org.appcelerator.kroll.common.Log;
+
 
 import android.app.Activity;
 import net.hockeyapp.android.CrashManager;
@@ -27,7 +27,7 @@ public class HockeyappModule extends KrollModule
 	private static final String TAG = "HockeyappModule";
     
     private String appId = null;
-
+    
 	// You can define constants with @Kroll.constant, for example:
 	// @Kroll.constant public static final String EXTERNAL_NAME = value;
 	
@@ -42,8 +42,8 @@ public class HockeyappModule extends KrollModule
 		Log.d(TAG, "inside onAppCreate");
 		// put module init code that needs to run when the application is created
 	}
-    
-    @Override
+
+	@Override
     public void onResume(Activity activity) {
         // TODO Auto-generated method stub
         super.onResume(activity);
@@ -51,7 +51,7 @@ public class HockeyappModule extends KrollModule
         checkForCrashes();
         checkForUpdates();
     }
-
+    
 	// Methods
     @Kroll.method
     public void start(String appId)
@@ -60,11 +60,19 @@ public class HockeyappModule extends KrollModule
     }
     
     private void checkForCrashes() {
+        if(this.appId == null)
+            return;
+        
+        Log.d(TAG, "checkForCrashes");
         Activity activity = TiApplication.getAppRootOrCurrentActivity();
         CrashManager.register(activity, this.appId);
     }
     
     private void checkForUpdates() {
+        if(this.appId == null)
+            return;
+
+        Log.d(TAG, "checkForUpdates");
         // Remove this for store builds!
         Activity activity = TiApplication.getAppRootOrCurrentActivity();
         UpdateManager.register(activity, this.appId);
