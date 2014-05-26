@@ -4,7 +4,7 @@ Not yet ready for production (although iOS implementation works)
 
 ## Description
 
-HockeyApp SDK module for Titanium. Currently only unauthenticated support is available, including crash reports. 
+HockeyApp SDK module for Titanium. Currently only unauthenticated support is available, including crash reports.
 
 The module is licensed under the MIT license.
 
@@ -12,10 +12,10 @@ The module is licensed under the MIT license.
 
 Simply add the following lines to your `tiapp.xml` file:
 
-```xml    
+```xml
     <modules>
-        <module platform="iphone">nl.rebelic.hockeyapp</module> 
-        <module platform="android">nl.rebelic.hockeyapp</module> 
+        <module platform="iphone">nl.rebelic.hockeyapp</module>
+        <module platform="android">nl.rebelic.hockeyapp</module>
     </modules>
 ```
 
@@ -27,4 +27,13 @@ Put the following code in your app.js (or alloy.js if you are using Alloy) to en
 	var hockeyapp = require('nl.rebelic.hockeyapp');
 	hockeyapp.start('<yourappid>');
 ```
+To show the modal feedback compose window on iOS:
 
+```javascript
+    hockeyapp.showFeedbackComposeView();
+```
+To show the modal feedback list view on iOS:
+
+```javascript
+    hockeyapp.showFeedbackListView();
+```

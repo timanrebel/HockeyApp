@@ -96,4 +96,14 @@
     [[BITHockeyManager sharedHockeyManager].authenticator authenticateInstallation];
 }
 
+- (void)showFeedbackListView:(id)args
+{
+    [[BITHockeyManager sharedHockeyManager].feedbackManager showFeedbackListView];
+}
+
+- (void)showFeedbackComposeView:(id)args
+{
+    [[BITHockeyManager sharedHockeyManager].feedbackManager showFeedbackComposeView];
+}
+
 @end
