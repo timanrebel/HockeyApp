@@ -17,7 +17,14 @@ import org.appcelerator.kroll.common.Log;
 
 import android.app.Activity;
 import net.hockeyapp.android.CrashManager;
+import net.hockeyapp.android.CrashManagerListener;
 import net.hockeyapp.android.UpdateManager;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.IOException;
+
+
 
 @Kroll.module(name="Hockeyapp", id="nl.rebelic.hockeyapp")
 public class HockeyappModule extends KrollModule
@@ -65,7 +72,15 @@ public class HockeyappModule extends KrollModule
         
         Log.d(TAG, "checkForCrashes");
         Activity activity = TiApplication.getAppRootOrCurrentActivity();
-        CrashManager.register(activity, this.appId);
+        // CrashManager.register(activity, this.appId);
+		CrashManager.register(activity, this.appId, new CrashManagerListener() {
+			
+			public boolean shouldAutoUploadCrashes() {
+			    return true;
+			  };
+		});
+
+
     }
     
     private void checkForUpdates() {
