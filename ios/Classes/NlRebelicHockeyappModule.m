@@ -26,6 +26,7 @@ static NSString * appCrashInfoKey;
 -(NSString*)moduleId
 {
 	return @"nl.rebelic.hockeyapp";
+    
 }
 
 #pragma mark Lifecycle
@@ -36,7 +37,7 @@ static NSString * appCrashInfoKey;
 	// you *must* call the superclass
 	[super startup];
 	
-	NSLog(@"[INFO] %@ loaded",self);
+	//NSLog(@"[INFO] %@ loaded",self);
     
     appCrashInfoKey = [NSString stringWithFormat:@"%@.%@", TI_APPLICATION_ID, @"crash_info"];
 }
