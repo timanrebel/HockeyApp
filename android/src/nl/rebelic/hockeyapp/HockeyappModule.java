@@ -57,6 +57,10 @@ public class HockeyappModule extends KrollModule
     public void start(String appId)
     {
         this.appId = appId;
+        
+        Activity activity = TiApplication.getAppRootOrCurrentActivity();
+        CrashManager.register(activity, this.appId);
+
     }
     
     private void checkForCrashes() {
@@ -64,9 +68,7 @@ public class HockeyappModule extends KrollModule
             return;
         
         Log.d(TAG, "checkForCrashes");
-        Activity activity = TiApplication.getAppRootOrCurrentActivity();
-        CrashManager.register(activity, this.appId);
-    }
+            }
     
     private void checkForUpdates() {
         if(this.appId == null)
