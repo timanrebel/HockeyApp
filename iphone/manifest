@@ -4,14 +4,14 @@
 #
 version: 0.2
 apiversion: 2
-description: HockeyApp module
-author: Timan Rebel (Rebelcorp)
+description: HockeyApp module wrapping the HockeyApp SDK
+author: Timan Rebel
 license: MIT License
-copyright: Copyright (c) 2014 by Rebelcorp
+copyright: Copyright (c) 2014 by Timan Rebel
 
 
 # these should not be edited
-name: ios
+name: hockeyapp
 moduleid: nl.rebelic.hockeyapp
 guid: 5accc0b6-00bd-4304-83fe-457f73a41412
 platform: iphone
