@@ -5,7 +5,7 @@
  * and licensed under the Apache Public License (version 2)
  */
 #import "TiModule.h"
-#import <HockeySDK.h>
+#import <HockeySDK/HockeySDK.h>
 
 
 @interface NlRebelicHockeyappModule : TiModule <BITCrashManagerDelegate>

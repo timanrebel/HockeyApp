@@ -10,29 +10,29 @@
 	<string>ios</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>4B52D8CC-C3A8-457A-932C-B61D8534BEF3</key>
+		<key>4E5F2BD9A0FF0FA7EAC6983483CDC280CC5B99DB</key>
 		<string>ssh://github.com/Rebelic/HockeyApp.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>ios/ios.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>4B52D8CC-C3A8-457A-932C-B61D8534BEF3</key>
+		<key>4E5F2BD9A0FF0FA7EAC6983483CDC280CC5B99DB</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>ssh://github.com/Rebelic/HockeyApp.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>4B52D8CC-C3A8-457A-932C-B61D8534BEF3</string>
+	<string>4E5F2BD9A0FF0FA7EAC6983483CDC280CC5B99DB</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>4B52D8CC-C3A8-457A-932C-B61D8534BEF3</string>
+			<string>4E5F2BD9A0FF0FA7EAC6983483CDC280CC5B99DB</string>
 			<key>IDESourceControlWCCName</key>
 			<string>HockeyApp</string>
 		</dict>

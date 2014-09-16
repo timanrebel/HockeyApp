@@ -24,5 +24,8 @@
 //
 //
 // IMPORTANT NOTE: always use $(inherited) in your overrides
-// 
-OTHER_LDFLAGS=$(inherited) -framework Foundation -framework UIKit -framework SystemConfiguration -framework QuartzCore -framework CoreGraphics
+//
+FRAMEWORK_SEARCH_PATHS=$(SRCROOT)/../../modules/iphone/nl.rebelic.hockeyapp/0.3/assets/Frameworks
+
+
+OTHER_LDFLAGS=$(inherited) -framework HockeySDK -framework Foundation -framework UIKit -framework SystemConfiguration -framework QuartzCore -framework CoreGraphics
