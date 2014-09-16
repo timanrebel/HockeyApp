@@ -5,9 +5,12 @@
  * and licensed under the Apache Public License (version 2)
  */
 #import "TiModule.h"
+#import <HockeySDK.h>
 
-@interface NlRebelicHockeyappModule : TiModule 
-{
-}
+
+@interface NlRebelicHockeyappModule : TiModule <BITCrashManagerDelegate>
+
+- (NSString *)applicationLogForCrashManager:(BITCrashManager *)crashManager;
+
 
 @end

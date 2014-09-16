@@ -8,7 +8,9 @@
 #import "TiBase.h"
 #import "TiHost.h"
 #import "TiUtils.h"
-#import <HockeySDK.h>
+
+extern NSString * const TI_APPLICATION_ID;
+static NSString * appCrashInfoKey;
 
 @implementation NlRebelicHockeyappModule
 
@@ -24,6 +26,7 @@
 -(NSString*)moduleId
 {
 	return @"nl.rebelic.hockeyapp";
+    
 }
 
 #pragma mark Lifecycle
@@ -34,7 +37,9 @@
 	// you *must* call the superclass
 	[super startup];
 	
-	NSLog(@"[INFO] %@ loaded",self);
+	//NSLog(@"[INFO] %@ loaded",self);
+    
+    appCrashInfoKey = [NSString stringWithFormat:@"%@.%@", TI_APPLICATION_ID, @"crash_info"];
 }
 
 -(void)shutdown:(id)sender
@@ -92,8 +97,10 @@
     ENSURE_SINGLE_ARG(appId, NSString);
     
     [[BITHockeyManager sharedHockeyManager] configureWithIdentifier:appId];
+    [[BITHockeyManager sharedHockeyManager].crashManager setDelegate:self];
     [[BITHockeyManager sharedHockeyManager] startManager];
     [[BITHockeyManager sharedHockeyManager].authenticator authenticateInstallation];
+    
 }
 
 - (void)showFeedbackListView:(id)args
@@ -104,6 +111,21 @@
 - (void)showFeedbackComposeView:(id)args
 {
     [[BITHockeyManager sharedHockeyManager].feedbackManager showFeedbackComposeView];
+}
+
+
+- (NSString *)applicationLogForCrashManager:(BITCrashManager *)crashManager
+{
+    
+    NSString *appLog = [[NSUserDefaults standardUserDefaults] valueForKey:appCrashInfoKey];
+    if (appLog == nil) {
+        return nil;
+    }
+    NSLog(@"appLog: %@", appLog);
+    [[NSUserDefaults standardUserDefaults] removeObjectForKey:appCrashInfoKey];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+    
+    return appLog;
 }
 
 @end
