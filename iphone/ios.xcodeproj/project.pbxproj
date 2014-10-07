@@ -34,7 +34,7 @@
 		BC90F7A618E2D767004C4A57 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC90F7A518E2D767004C4A57 /* Security.framework */; };
 		BC90F7A818E2D76B004C4A57 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC90F7A718E2D76B004C4A57 /* SystemConfiguration.framework */; };
 		BC90F7AA18E2D772004C4A57 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC90F7A918E2D772004C4A57 /* UIKit.framework */; };
-		BCD1D84A19C84629000D2825 /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD1D84919C84629000D2825 /* HockeySDK.framework */; };
+		BCB1F8A119E3D02C007E1663 /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB1F8A019E3D02C007E1663 /* HockeySDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +61,7 @@
 		BC90F7A518E2D767004C4A57 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		BC90F7A718E2D76B004C4A57 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		BC90F7A918E2D772004C4A57 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		BCD1D84919C84629000D2825 /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HockeySDK.framework; path = assets/Frameworks/HockeySDK.framework; sourceTree = "<group>"; };
+		BCB1F8A019E3D02C007E1663 /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HockeySDK.framework; path = platform/HockeySDK.framework; sourceTree = "<group>"; };
 		D2AAC07E0554694100DB518D /* libNlRebelicHockeyapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNlRebelicHockeyapp.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -74,7 +74,7 @@
 				BC90F7A818E2D76B004C4A57 /* SystemConfiguration.framework in Frameworks */,
 				BC90F7A618E2D767004C4A57 /* Security.framework in Frameworks */,
 				BC90F7A418E2D762004C4A57 /* QuartzCore.framework in Frameworks */,
-				BCD1D84A19C84629000D2825 /* HockeySDK.framework in Frameworks */,
+				BCB1F8A119E3D02C007E1663 /* HockeySDK.framework in Frameworks */,
 				BC90F7A218E2D75D004C4A57 /* CoreText.framework in Frameworks */,
 				BC90F7A018E2D751004C4A57 /* CoreGraphics.framework in Frameworks */,
 				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
@@ -106,7 +106,7 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BCD1D84919C84629000D2825 /* HockeySDK.framework */,
+				BCB1F8A019E3D02C007E1663 /* HockeySDK.framework */,
 				BC90F7A918E2D772004C4A57 /* UIKit.framework */,
 				BC90F7A718E2D76B004C4A57 /* SystemConfiguration.framework */,
 				BC90F7A518E2D767004C4A57 /* Security.framework */,
@@ -247,6 +247,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDK.embeddedframework",
 					"$(PROJECT_DIR)/assets/Frameworks",
+					"$(PROJECT_DIR)/platform",
 				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -292,6 +293,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDK.embeddedframework",
 					"$(PROJECT_DIR)/assets/Frameworks",
+					"$(PROJECT_DIR)/platform",
 				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_MODEL_TUNING = G5;
