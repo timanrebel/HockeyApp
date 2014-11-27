@@ -4,7 +4,7 @@
 #
 version: 0.4
 apiversion: 2
-description: HockeyApp module wrapping the HockeyApp SDK
+description: Appcelerator module wrapping the HockeyApp SDK
 author: Timan Rebel
 license: MIT License
 copyright: Copyright (c) 2014 by Timan Rebel
