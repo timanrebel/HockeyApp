@@ -2,7 +2,7 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 0.4
+version: 0.4.1
 apiversion: 2
 description: Appcelerator module wrapping the HockeyApp SDK
 author: Timan Rebel
@@ -16,4 +16,4 @@ moduleid: nl.rebelic.hockeyapp
 guid: 5accc0b6-00bd-4304-83fe-457f73a41412
 platform: iphone
 minsdk: 3.2.2.GA
-architectures: armv7 i386 x86_64 arm64
+architectures: armv7 i386 arm64
