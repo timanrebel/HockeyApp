@@ -8,7 +8,7 @@
 #import <HockeySDK/HockeySDK.h>
 
 
-@interface NlRebelicHockeyappModule : TiModule <BITCrashManagerDelegate>
+@interface NlRebelicHockeyappModule : TiModule <BITHockeyManagerDelegate, BITCrashManagerDelegate>
 
 - (NSString *)applicationLogForCrashManager:(BITCrashManager *)crashManager;
 

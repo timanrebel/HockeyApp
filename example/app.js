@@ -1,5 +1,8 @@
 var hockeyapp = require('nl.rebelic.hockeyapp');
-hockeyapp.start('<yourappid>');
+hockeyapp.start('3fcc45ce6f74b483f14c56c91d243e83');
+
+hockeyapp.setFeedbackScreenshotType('last');
+// hockeyapp.setFeedbackScreenshotType('3finger');
 
 var win = Ti.UI.createWindow({
   backgroundColor: 'white'

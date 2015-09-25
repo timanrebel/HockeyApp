@@ -96,25 +96,38 @@ static NSString * appCrashInfoKey;
     ENSURE_UI_THREAD(start, appId);
     ENSURE_SINGLE_ARG(appId, NSString);
     
-    [[BITHockeyManager sharedHockeyManager] configureWithIdentifier:appId];
-    [[BITHockeyManager sharedHockeyManager].crashManager setDelegate:self];
+    [[BITHockeyManager sharedHockeyManager] configureWithIdentifier:appId delegate:self];
+    [[BITHockeyManager sharedHockeyManager].crashManager setCrashManagerStatus: BITCrashManagerStatusAutoSend];
     [[BITHockeyManager sharedHockeyManager] startManager];
     [[BITHockeyManager sharedHockeyManager].authenticator authenticateInstallation];
-    
 }
 
-- (void)showFeedbackListView:(id)args
+-(void)setFeedbackScreenshotType:(id)args
+{
+    ENSURE_SINGLE_ARG(args, NSString);
+    
+    NSString *type = (NSString *) args;
+    
+    if([type  isEqual: @"last"]) {
+        [[BITHockeyManager sharedHockeyManager].feedbackManager setFeedbackObservationMode:BITFeedbackObservationModeOnScreenshot];
+    }
+    else if([type  isEqual: @"3finger"]) {
+        [[BITHockeyManager sharedHockeyManager].feedbackManager setFeedbackObservationMode:BITFeedbackObservationModeThreeFingerTap];
+    }
+}
+
+-(void)showFeedbackListView:(id)args
 {
     [[BITHockeyManager sharedHockeyManager].feedbackManager showFeedbackListView];
 }
 
-- (void)showFeedbackComposeView:(id)args
+-(void)showFeedbackComposeView:(id)args
 {
     [[BITHockeyManager sharedHockeyManager].feedbackManager showFeedbackComposeView];
 }
 
 
-- (NSString *)applicationLogForCrashManager:(BITCrashManager *)crashManager
+-(NSString *)applicationLogForCrashManager:(BITCrashManager *)crashManager
 {
     
     NSString *appLog = [[NSUserDefaults standardUserDefaults] valueForKey:appCrashInfoKey];
