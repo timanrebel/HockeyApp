@@ -25,6 +25,6 @@
 //
 // IMPORTANT NOTE: always use $(inherited) in your overrides
 //
-FRAMEWORK_SEARCH_PATHS=$(SRCROOT)/../../modules/iphone/nl.rebelic.hockeyapp/0.6.1/platform
+FRAMEWORK_SEARCH_PATHS=$(SRCROOT)/../../modules/iphone/nl.rebelic.hockeyapp/0.6.2/platform "~/Library/Application Support/Titanium/modules/iphone/nl.rebelic.hockeyapp/0.6.2/platform"
 
 OTHER_LDFLAGS=$(inherited) -framework HockeySDK -framework AssetsLibrary -framework CoreText -framework CoreGraphics -framework Foundation -framework MobileCoreServices -framework QuartzCore -framework QuickLook -framework Security -framework SystemConfiguration -framework UIKit
