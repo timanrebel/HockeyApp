@@ -1,13 +1,8 @@
 # Build folder and log file
 build/
 build.log
-
 .DS_Store
-
 /android/build.properties
-
 /android/.settings/
-
 /android/.project
-
-/ios/.DS_Store
+/android/dist
