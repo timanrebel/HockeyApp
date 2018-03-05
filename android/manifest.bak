@@ -2,17 +2,18 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 0.4
-apiversion: 4
-architectures: arm64-v8a armeabi-v7a x86
+version: 0.3.1
+apiversion: 3
+architectures: armeabi-v7a x86
 description: Hockeyapp
 author: Timan Rebel
 license: Specify your license
 copyright: Copyright (c) 2014 by Rebelic
+
 
 # these should not be edited
 name: hockeyapp
 moduleid: nl.rebelic.hockeyapp
 guid: 3e7b01f3-de74-4c20-8e29-fd17e0997ccf
 platform: android
-minsdk: 7.0.2
+minsdk: 6.0.0.GA
